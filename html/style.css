@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard.css");
+
+body {
+    font-family: Pretendard;
+    background-color: black;
+    color: white;
+
+}
+
+body, h1, h2, hr, ul, p {
+    margin: 0;
+}
+
+main {
+    max-width: 924px;
+    margin: 62px auto 98px;
+}
+
+/* margin: 3px 6px 20px 상 좌우 하 */
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 32px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+li {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+}
+
+.label {
+    width: 104px;
+    font-weight: 700px;
+    margin-right: 16px;
+}
+
+hr {
+    border-style: solid;
+    border-bottom-width: 0;
+}
