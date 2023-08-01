@@ -1,0 +1,54 @@
+body {
+    background-color: #ffffff;
+}
+
+main {
+    max-width: 936px;
+    margin: auto auto;
+}
+
+#header > img {
+    width: 103px;
+    height: 29px;
+    margin-top: 18px;
+}
+
+input {
+    border: 0px;
+    width: 268px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #EFEFEF;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #DBDBDB;
+}
+
+#headerHr {
+    width: 100%;
+    background-color: #DBDBDB;
+}
+
+#headerHr {
+    width: 100%;
+}
+
+#userSummary {
+    display: flex;
+    flex-direction: row;
+}
+
+#userSummary > img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: 303px;
+}
+
+#userAccount {
+    display: flex;
+    flex-direction: column;
+}
