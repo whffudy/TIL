@@ -13,7 +13,7 @@ main {
     margin-top: 18px;
 }
 
-input {
+#header > input {
     border: 0px;
     width: 268px;
     height: 36px;
@@ -37,18 +37,46 @@ hr {
 }
 
 #userSummary {
+    width: 553px;
+    height: 140px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 #userSummary > img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    margin-left: 303px;
 }
 
 #userAccount {
     display: flex;
     flex-direction: column;
+    width: 281px;
+    height: 104px;
+}
+
+button {
+    border: 0px;
+    width: 68px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #EFEFEF;
+}
+
+#accountCounts {
+    display: flex;
+    justify-content: space-between;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    color: #9E9E9E;
+}
+
+#imgs > img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
