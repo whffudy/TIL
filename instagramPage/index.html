@@ -7,36 +7,42 @@
     <title>Instagram</title>
 </head>
 <body>
-    <main>
-        <section id="header">
+    <header>
+        <section class="headerSummary">
             <img src="./instagram logo.png" alt="instagram logo"/>
-            <input type="text" name="search" placeholder="검색">
+            <div class="search">
+                <input type="text" name="search" placeholder="검색">
+            </div>
         </section>
-    </main>
-    <hr id="headerHr" />
+    </header>
     <main>
-        <section id="userSummary">
+        <section class="userSummary">
             <img src="./sky.jpeg" alt="blue sky">
-            <div id="userAccount">
-                <div>
-                    <span id="userId">e6e6fa</span>
-                    <button>팔로우</button>
+            <div class="userAccount">
+                <div class="idFollow">
+                    <span class="userId">e6e6fa</span>
+                    <button class="followButton">팔로우</button>
                 </div>
-                <div id="accountCounts">
+                <div class="accountCounts">
                     <span>게시물 5</span>
                     <span>팔로워 834</span>
                     <span>팔로우 249</span>
                 </div>
-                <div id="userName">sora</div>
+                <p class="userName">sora</p>
             </div>
         </section>
-        <hr />
-        <div id="buttons">
-            <span>게시물</span>
-            <span>릴스</span>
-            <span>태그됨</span>
+        <div class="buttonGroup">
+            <div class="post">
+                <button>게시물</button>
+            </div>
+            <div class="reels">
+                <button>릴스</button>
+            </div>
+            <div class="tagged">
+                <button>태그됨</button>
+            </div>
         </div>
-        <div id="imgs">
+        <div class="imgs">
             <img src="./01.jpeg" alt="naeun1"/>
             <img src="./02.jpeg" alt="naeun2"/>
             <img src="./03.jpeg" alt="totoro"/>

@@ -1,105 +1,152 @@
 body {
+    margin: 0;
     background-color: #ffffff;
+    font-family: Noto Sans KR;
 }
 
 main {
     max-width: 936px;
-    margin: auto auto;
+    margin: 52px auto 247px;
 }
 
-#header > img {
+header {
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.headerSummary {
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
     width: 103px;
     height: 29px;
     margin-top: 18px;
+    margin-bottom: 13px;
+    margin-left: 252px;
+}
+
+.search {
+    width: 268px;
+    height: 36px;
+    background-color: #EFEFEF;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 231px;
 }
 
 input {
-    border: 0px;
-    width: 268px;
-    height: 36px;
-    border-radius: 8px;
+    width: 210px;
+    height: 14px;
+    margin: 11px 16px 11px 12px;
     background-color: #EFEFEF;
-    font-family: Noto Sans KR;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-hr {
     border: 0;
-    height: 1px;
-    background-color: #DBDBDB;
 }
 
-#headerHr {
-    width: 100%;
-    background-color: #DBDBDB;
+input:focus {
+    outline: none;
 }
 
-#headerHr {
-    width: 100%;
-}
-
-#userSummary {
-    width: 553px;
+.userSummary {
+    width: 936px;
     height: 140px;
+    margin: 52px auto 48px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
-#userSummary > img {
+.userSummary > img {
     width: 140px;
     height: 140px;
     border-radius: 50%;
+    margin-left: 51px;
 }
 
-#userAccount {
+.userAccount {
     display: flex;
     flex-direction: column;
     width: 281px;
     height: 104px;
+    margin-left: 132px;
 }
 
-#userId {
-    font-family: Noto Sans KR;
+.idFollow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.userId {
     font-size: 24px;
     font-weight: 500;
 }
 
-button {
+.followButton {
     border: 0px;
     width: 68px;
     height: 32px;
+    margin-left: 26px;
     border-radius: 4px;
     background-color: #EFEFEF;
-    font-family: Noto Sans KR;
     font-size: 13px;
     font-weight: 500;
 }
 
-#accountCounts {
+.accountCounts {
     display: flex;
     justify-content: space-between;
-    font-family: Noto Sans KR;
     font-size: 13px;
     font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
 
-#userName {
-    font-family: Noto Sans KR;
-font-size: 13px;
-font-weight: 700;
+.userName {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 0px;
 }
 
-#buttons {
+.buttonGroup {
+    width: 936px;
+    height: 30px;
+    border-top: 1px solid #DBDBDB;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+
+.buttonGroup button {
+    background-color: #ffffff;
+    border: 0;
     color: #9E9E9E;
-    font-family: Noto Sans KR;
     font-size: 12px;
     font-weight: 500;
+    padding-top: 16px;
 }
 
-#imgs > img {
+.post {
+    margin-top: -1px;
+    border-top: 1px solid #000000;
+    margin-left: 286px;
+}
+
+.post > button {
+    color: #000000;
+}
+
+.tagged {
+    margin-right: 286px;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.imgs > img {
     width: 300px;
     height: 300px;
     object-fit: cover;
