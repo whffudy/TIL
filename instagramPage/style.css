@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 body {
     margin: 0;
     background-color: #ffffff;
@@ -34,6 +36,16 @@ header img {
     border-radius: 8px;
     margin-top: 12px;
     margin-left: 231px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search img {
+    width: 14px;
+    height: 14px;
+    margin-left: 16px;
+    margin-top: 11px;
+    margin-bottom: 11px;
 }
 
 input {
