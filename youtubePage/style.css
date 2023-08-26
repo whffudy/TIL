@@ -5,9 +5,19 @@ body {
 }
 
 header {
+    position: fixed;
+    height: 56px;
+}
+
+header .headerSummary {
     display: flex;
     flex-direction: row;
-    height: 56px;
+}
+
+.headerMenuButton {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
 }
 
 .youtubeLogoSummary {
